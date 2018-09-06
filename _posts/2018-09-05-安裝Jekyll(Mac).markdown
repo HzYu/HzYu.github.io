@@ -1,10 +1,16 @@
 ---
-layout: post
-title:  "2018-09-05-安裝Jekyll(Mac)"
-date:   2018-09-05 19:20:33
-categories: jekyll Mac
-permalink: /archivers/安裝Jekyll(Mac)
+layout:     post
+title:      安裝Jekyll(Mac)
+subtitle:   安裝Jekyll(Mac)
+date:       2018-09-05 19:20:33
+author:     BY
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - jekyll
+    - Mac
 ---
+
 
 我建立的 Blog 是用 [GitHub Pages][GitHub_Pages] + [Jekyll][Jekyll]
 
@@ -22,9 +28,9 @@ $ gem install jekyll
 
 Could not find a valid gem 'jekyll' (>= 0), here is
 why: Unable to download data from https://rubygems.org/
-- SSL_connect returned=1 errno=0 state=SSLv2/v3 read 
-- server hello A: tlsv1 alert protocol version 
-- (https://- rubygems.org/latest_specs.4.8.gz)
+SSL_connect returned=1 errno=0 state=SSLv2/v3 read 
+server hello A: tlsv1 alert protocol version 
+(https://- rubygems.org/latest_specs.4.8.gz)
 
 刪除 SSL 並加入 簡單的HTTP，即可解決
 

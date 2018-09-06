@@ -16,7 +16,7 @@ tags:
 
 我建立的 Blog 是用 [GitHub Pages][GitHub_Pages] + [Jekyll][Jekyll]
 
-# 安裝Jekyll
+# 安裝Jekyll 
 
 首先要先安裝 `Jekyll`
 

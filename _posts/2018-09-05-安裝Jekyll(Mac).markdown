@@ -29,7 +29,7 @@ $ gem install jekyll
 在安裝過程中，如果沒有出現以下的錯誤，則忽略，直接跳到[安裝完成Jekyll](#安裝完成Jekyll)
 
 ---
-### 錯誤一
+#### 錯誤一
 
 ~~~
 Could not find a valid gem 'jekyll' (>= 0), here is
@@ -46,7 +46,7 @@ gem source --remove https://rubygems.org
 ~~~
 
 ___
-### 錯誤二
+#### 錯誤二
 
 ~~~
 public_suffix requires Ruby version >= 2.1.
@@ -59,8 +59,8 @@ public_suffix requires Ruby version >= 2.1.
 Ruby -v
 ~~~
 
-如果版本低於 2.1 就要透過 RVM 升級 
-___
+如果版本低於 2.1 就要透過 RVM 升級
+__
 
 ## 安裝 RVM
 

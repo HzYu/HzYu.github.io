@@ -18,7 +18,7 @@ tags:
 
 ## 安裝Jekyll 
 
-首先要先安裝 `Jekyll`
+要建立 Blog，首先要先安裝 `Jekyll`
 
 打開 `Terminal`（終端機）
 
@@ -26,9 +26,11 @@ tags:
 $ gem install jekyll
 ~~~
 
-在安裝過程中，如果沒有出現以下的錯誤，則忽略
+在安裝過程中，如果沒有出現以下的錯誤，則忽略，直接跳到[安裝完成Jekyll](#安裝完成Jekyll)
 
 ---
+### 錯誤一
+
 ~~~
 Could not find a valid gem 'jekyll' (>= 0), here is
 why: Unable to download data from https://rubygems.org/
@@ -44,6 +46,8 @@ gem source --remove https://rubygems.org
 ~~~
 
 ___
+### 錯誤二
+
 ~~~
 public_suffix requires Ruby version >= 2.1.
 ~~~
@@ -56,8 +60,9 @@ Ruby -v
 ~~~
 
 如果版本低於 2.1 就要透過 RVM 升級 
+___
 
-### 安裝 RVM
+## 安裝 RVM
 
 透過安裝 `RVM`(管理 Ruby 版本套件) 來升級 `Ruby` 版本
 
@@ -67,7 +72,7 @@ Ruby -v
 
 ![](https://ws4.sinaimg.cn/large/0069RVTdgy1fuzxvwixi2j30v00jck1h.jpg)
 
-### 安裝 gpg
+## 安裝 gpg
 
 如果找不到 `gpg`(加密軟體) 指令
 
@@ -82,7 +87,7 @@ ___
 ![](https://ws3.sinaimg.cn/large/0069RVTdgy1fuzyrpsp9tj312a11g7bg.jpg)
 
 
-### 升級Ruby版本
+## 升級Ruby版本
 
 下載想要 `Ruby` 的版本 
 
@@ -105,7 +110,7 @@ interpreter. Halting the installation.
 
 確認完 `Ruby` 版本在2.1後，可以開始安裝 `Jekyll`
 
-### 安裝完成Jekyll
+## 安裝完成Jekyll
 
 ~~~
 gem install Jekyll 

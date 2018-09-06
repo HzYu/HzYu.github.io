@@ -14,9 +14,9 @@ tags:
 ---
 
 
-我建立的 Blog 是用 [GitHub Pages][GitHub_Pages] + [Jekyll][Jekyll]
+> 我建立的 Blog 是用 [GitHub Pages][GitHub_Pages] + [Jekyll][Jekyll]
 
-# 安裝Jekyll 
+## 安裝Jekyll 
 
 首先要先安裝 `Jekyll`
 
@@ -55,7 +55,9 @@ public_suffix requires Ruby version >= 2.1.
 Ruby -v
 ~~~
 
-## 安裝 RVM
+如果版本低於 2.1 就要透過 RVM 升級 
+
+### 安裝 RVM
 
 透過安裝 `RVM`(管理 Ruby 版本套件) 來升級 `Ruby` 版本
 
@@ -64,6 +66,8 @@ Ruby -v
 輸入 `RVM` 官網指定的兩行指令
 
 ![](https://ws4.sinaimg.cn/large/0069RVTdgy1fuzxvwixi2j30v00jck1h.jpg)
+
+### 安裝 gpg
 
 如果找不到 `gpg`(加密軟體) 指令
 
@@ -76,6 +80,9 @@ ___
 在終端機下輸入 `rvm list known` 會列出目前有哪些可以安裝的列表
 
 ![](https://ws3.sinaimg.cn/large/0069RVTdgy1fuzyrpsp9tj312a11g7bg.jpg)
+
+
+### 升級Ruby版本
 
 下載想要 `Ruby` 的版本 
 
@@ -98,6 +105,8 @@ interpreter. Halting the installation.
 
 確認完 `Ruby` 版本在2.1後，可以開始安裝 `Jekyll`
 
+### 安裝完成Jekyll
+
 ~~~
 gem install Jekyll 
 ~~~
@@ -109,6 +118,9 @@ Jekyll -v
 ~~~
 
 ![](https://ws3.sinaimg.cn/large/0069RVTdgy1fuzzi4lmovj311w0qk41k.jpg)
+
+## 啟用Jekyll
+
 
 [GitHub_Pages]: https://pages.github.com/
 [Jekyll]: https://jekyllrb.com/

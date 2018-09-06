@@ -26,7 +26,7 @@ tags:
 $ gem install jekyll
 ~~~
 
-在安裝過程中，如果沒有出現以下的錯誤，則忽略，直接跳到[安裝完成Jekyll](#安裝完成Jekyll)
+在安裝過程中，如果沒有出現以下的錯誤，則忽略，直接跳到`安裝完成Jekyll`
 
 ---
 #### 錯誤一
@@ -60,7 +60,6 @@ Ruby -v
 ~~~
 
 如果版本低於 2.1 就要透過 RVM 升級
-__
 
 ## 安裝 RVM
 
@@ -123,9 +122,6 @@ Jekyll -v
 ~~~
 
 ![](https://ws3.sinaimg.cn/large/0069RVTdgy1fuzzi4lmovj311w0qk41k.jpg)
-
-## 啟用Jekyll
-
 
 [GitHub_Pages]: https://pages.github.com/
 [Jekyll]: https://jekyllrb.com/

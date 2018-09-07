@@ -3,7 +3,7 @@ layout:     post
 title:      建立Blog - 安裝Jekyll(Mac)
 subtitle:   Step1 安裝Jekyll(Mac)
 date:       2018-09-05 19:20:33
-author:     BY
+author:     BY HzYu
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
@@ -123,7 +123,10 @@ Jekyll -v
 
 ![](https://ws3.sinaimg.cn/large/0069RVTdgy1fuzzi4lmovj311w0qk41k.jpg)
 
+安裝完成 `Jekyll` 後 ，下一篇 [開始建立自己的 Blog][開始建立自己的 Blog] 會啟用 `Jekyll sever` 看到自己建立的 Blog 並發表文章
+
 [GitHub_Pages]: https://pages.github.com/
 [Jekyll]: https://jekyllrb.com/
 [RVM]: https://rvm.io/
 [gpg]: https://gpgtools.org/
+[開始建立自己的 Blog]: http://t.cn/Rsx0M8C
